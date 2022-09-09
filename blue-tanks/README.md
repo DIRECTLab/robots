@@ -1,10 +1,11 @@
 # Blue Yahboom Tanks
 Current inventory as of 9/8/22:
-- 5 tanks in total
+- 5 tanks in total. 4 of them work. Test the one that says "no sonar."
 
 Capabilities:
 - Motor control for right and left tracks
 - Sonar
+- If you figure out how to use other capabilities, let us know!
 
 How to use:
 1. Turn the tank on and wait for it to beep.
