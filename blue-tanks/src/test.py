@@ -4,6 +4,8 @@ import time
 tank = YahboomTank()
 
 try:
+  # If nothing is in front of the tank for 65 cm, go forwrd at quarter speed for 1 s. 
+  # Else, go backward at quarter speed for 1 s.
   while True:
     dist = tank.get_sonar_distance()
     print(dist)

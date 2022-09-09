@@ -1,10 +1,11 @@
 # Blue Yahboom Tanks
-Current inventory as of 9/8/22:
-- 5 tanks in total. 4 of them work. Test the one that says "no sonar."
+Inventory as of 9/8/22:
+- All 5 tanks have working motors and sonar.
 
 Capabilities:
 - Motor control for right and left tracks
 - Sonar
+- Camera is controlled through USB
 - If you figure out how to use other capabilities, let us know!
 
 How to use:
@@ -15,4 +16,5 @@ How to use:
     - Password is `yahboom`.
 5. `ssh` into the tank as instructed.
 6. Your code can be found in `python/src`. Run the python scripts to execute their code (e.g. `python demo.py`).
+    - Basic commands are in `yahboom_tank.py`. See `demo.py ` and `test.py` for basic usage.
 7. Exit SSH with `exit`. Turn off the robot and disconnect the battery.
