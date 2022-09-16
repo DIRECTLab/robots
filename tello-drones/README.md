@@ -18,3 +18,8 @@ How to use:
 - When you turn on the drone, it should flash through the rainbow, then flash orange.
     - Solid red indicates low battery.
 - Once the command `command` is sent, the light should change colors.
+
+Common problems:
+- Drone connects, but `takeoff` command returns `error`:
+    1. Try `end`ing the program and running it again.
+    2. Try switching batteries.
