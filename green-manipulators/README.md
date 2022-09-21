@@ -1,11 +1,15 @@
 # Green Yahboom Manipulators
 Inventory as of 9/16/22:
 - Working camera, RGB light, speaker and servos on jetson platform
-- Not sure about the raspberry pi
+- The raspberry pi one is having several problems:
+    - The raspberry pi is not receiving power (or sufficient power) from the Arduino
+    - When the raspberry pi is powered separately, any attempt at at communicating with the servos results in an "I2C error"
+    - Some sort of connection problem?
+        - Using the wire ribbon from the other manipulator did not help
 
 
 Capabilities:
-- Read and write angles of all six degrees of freedom
+- Read and write angles of all six servos
 - RGB light and beeping noise
 - USB Camera
 
