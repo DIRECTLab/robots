@@ -1,11 +1,7 @@
 # Green Yahboom Manipulators
-Inventory as of 9/16/22:
-- Working camera, RGB light, speaker and servos on jetson platform
-- The raspberry pi one is having several problems:
-    - The raspberry pi is not receiving power (or sufficient power) from the Arduino
-    - When the raspberry pi is powered separately, any attempt at at communicating with the servos results in an "I2C error"
-    - Some sort of connection problem?
-        - Using the wire ribbon from the other manipulator did not help
+Inventory as of 9/22/22:
+- Working camera, RGB light, speaker and servos on both manipulators
+    - The raspberry pi could use an upgrade, though
 
 
 Capabilities:
