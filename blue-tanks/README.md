@@ -11,6 +11,7 @@ Capabilities:
 How to use:
 1. Turn the tank on and wait for it to beep.
 2. Connect to Yahboom_Tank WiFi.
+    - Password is `12345678`.
 4. From the command line, run `./deploy.sh`.
     - Ensure the code you want to use is in `src/`. This command will send the directory `src/` to the tank.
     - Password is `yahboom`.
