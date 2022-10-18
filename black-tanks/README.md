@@ -1,8 +1,6 @@
 # Black XiaoR Geek Tanks
-Inventory as of 9/13/22:
-- One tank seems to be woking well.
-- The other is having problems with manipulator servos.
-- A third is going to be brought in by Chad.
+Inventory as of 10/18/22:
+- All 3 should be working correctly.
 
 
 Capabilities:
