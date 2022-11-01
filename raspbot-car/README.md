@@ -23,9 +23,12 @@ Inventory as of 11/1/22:
         - SSH tunneling (eg. `ssh [username]@[ip.address] -L 8080:[ip.address]:8888`) can be useful, especially for running Jupyter Notebooks.
 3. Run commands as desired.
     - Useful documentation for controlling the robot can be found [here](http://www.yahboom.net/study/Raspbot). See especially `5.Hardware Control Course`.
-    - Some tutorials (Jupyter Notebook files) can be found under `Yahboom_project/Raspbot/`. They go along with the manual above.
+    - Some tutorials (Jupyter Notebook files) can be found under `Yahboom_project/Raspbot/`. They go along with the documentation above.
         - Please don't change these files - make a copy before editing.
         - To prevent injuries to the robot, understand the code before running it, and make necessary precautions. For example, I recommend setting up some sort of bumper when trying `Ultrasonic avoid`.
     - `Yahboom_project/Raspbot/raspbot/YB_Pcb_Car.py` helps with lots of the motor controls.
         - Please don't change this file - make a copy of it before editing.
-4. When finished, turn the robot off and disconnect the battery.
+4. When finished: 
+    1. `exit` SSH.
+    2. Turn the robot off.
+    3. Disconnect the battery.
