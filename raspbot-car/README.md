@@ -8,8 +8,8 @@ Inventory as of 11/1/22:
 - Skid steering
 - Buzzer
 - Camera with 2 servos for camera control
+- Sonar
 - Infrared sensors
-
 
 
 ## How to Use
