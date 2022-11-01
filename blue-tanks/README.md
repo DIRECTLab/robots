@@ -2,13 +2,15 @@
 Inventory as of 9/8/22:
 - All 5 tanks have working motors and sonar.
 
-Capabilities:
+
+## Capabilities:
 - Motor control for right and left tracks
 - Sonar
 - Camera is controlled through USB
 - If you figure out how to use other capabilities, let us know!
 
-How to use:
+
+## How to use:
 1. Turn the tank on and wait for it to beep.
 2. Connect to Yahboom_Tank WiFi.
     - Password is `12345678`.

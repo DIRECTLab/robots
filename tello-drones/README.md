@@ -7,12 +7,12 @@ Inventory as of 9/15/22:
     - Solid blue: Charged
 
 
-Capabilities:
+## Capabilities
 - Navigation
 - Camera
 
 
-How to use:
+## How to Use
 - See https://dl-cdn.ryzerobotics.com/downloads/Tello/Tello%20SDK%202.0%20User%20Guide.pdf
     - Note that this didn't work on WSL for me, but it did work on Git Bash.
 - When you turn on the drone, it should flash through the rainbow, then flash orange.

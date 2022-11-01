@@ -4,13 +4,13 @@ Inventory as of 9/22/22:
     - The raspberry pi could use an upgrade, though
 
 
-Capabilities:
+## Capabilities
 - Read and write angles of all six servos
 - RGB light and beeping noise
 - USB Camera
 
 
-How to use:
+## How to Use
 1. Connect a monitor, keyboard and mouse to the robot.
 2. Turn the manipulator on and open a terminal.
 3. Run the desired Python code.

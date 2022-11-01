@@ -3,13 +3,13 @@ Inventory as of 10/18/22:
 - All 3 should be working correctly.
 
 
-Capabilities:
+## Capabilities
 - (x, y) navigation
 - Manipulation
 - Camera
 
 
-How to use:
+## How to Use
 - These robots use the ROS framework. See the user manual for details.
 1. Turn the robot on and connect to `XiaoRGEEK_*` WiFi.
 2. SSH into `xrrobot`, e.g. `ssh xrrobot@192.168.1.1`.
