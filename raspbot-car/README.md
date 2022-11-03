@@ -28,6 +28,7 @@ Inventory as of 11/1/22:
         - To prevent injuries to the robot, understand the code before running it, and make necessary precautions. For example, I recommend setting up some sort of bumper when trying `Ultrasonic avoid`.
     - `Yahboom_project/Raspbot/raspbot/YB_Pcb_Car.py` helps with lots of the motor controls.
         - Please don't change this file - make a copy of it before editing.
+    - `TestCamera.ipynb` from this repo can be used to test the Pi camera and demonstrate basic usage.
 4. When finished: 
     1. `exit` SSH.
     2. Turn the robot off.
