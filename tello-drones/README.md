@@ -1,6 +1,7 @@
 # Tello EDU Drones
-Inventory as of 9/15/22:
+Inventory as of 11/4/22:
 - Nine drones connect and fly.
+    - One of these is checked out to P.A.S.E. with 3 batteries.
 - Two drones (the ones in the drawer) connect, but return errors on takeoff.
 - Some batteries don't work. Others only charge in the drones.
     - Blinking blue: Charging
