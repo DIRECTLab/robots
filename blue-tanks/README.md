@@ -20,4 +20,5 @@ Inventory as of 9/8/22:
 5. `ssh` into the tank as instructed.
 6. Your code can be found in `python/src`. Run the python scripts to execute their code (e.g. `python demo.py`).
     - Basic commands are in `yahboom_tank.py`. See `demo.py ` and `test.py` for basic usage.
+    - There is also some new documentation online [here](http://www.yahboom.net/study/G1-T-PI) that helps with controlling the robot. See especially `3.Experimental tutorial`.
 7. Exit SSH with `exit`. Turn off the robot and disconnect the battery.
