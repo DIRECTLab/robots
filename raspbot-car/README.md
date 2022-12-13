@@ -1,7 +1,8 @@
 # Yahboom Raspbot Cars
-Inventory as of 11/1/22:
-- 3 cars are built
-- 2 more are still in boxes
+Inventory as of 11/4/22:
+- 1 is checked out to Ela
+- 1 is checked out to Group 2
+- 3 more are available in the lab
 
 
 ## Capabilities
@@ -28,6 +29,7 @@ Inventory as of 11/1/22:
         - To prevent injuries to the robot, understand the code before running it, and make necessary precautions. For example, I recommend setting up some sort of bumper when trying `Ultrasonic avoid`.
     - `Yahboom_project/Raspbot/raspbot/YB_Pcb_Car.py` helps with lots of the motor controls.
         - Please don't change this file - make a copy of it before editing.
+    - `TestCamera.ipynb` from this repo can be used to test the Pi camera and demonstrate basic usage.
 4. When finished: 
     1. `exit` SSH.
     2. Turn the robot off.
