@@ -42,3 +42,8 @@ To avoid accidental damage and avoid unnecessary power consumption, I recommend 
 There is a phone in the cupboard with the robots that has the app installed for controlling the robots. While using the app, beware that tilting the phone may cause the robot to move forward, backward or sideways.
 
 Instructions for connecting the phone can be found under section 3.1 in the documentation.
+
+### Via remote control
+
+See section 3.3 in the documentation. Make sure the controller is turned on. Note that the beep that means the controller is ready does not stop. Feel free to fix the code for that! Saying the wakeup voice command ("Hi, Yahboom") seems to make it stop. 
+- For more voice commands, see 14.1 in the documentation.
