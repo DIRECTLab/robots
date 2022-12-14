@@ -45,5 +45,5 @@ Instructions for connecting the phone can be found under section 3.1 in the docu
 
 ### Via remote control
 
-See section 3.3 in the documentation. Make sure the controller is turned on. Note that the beep that means the controller is ready does not stop. Feel free to fix the code for that! Saying the wakeup voice command ("Hi, Yahboom") seems to make it stop. 
+See section 3.3 in the documentation. Make sure the controller is turned on. Note that the beep that means the controller is ready does not stop. Feel free to fix the code for that! Saying the wakeup voice command ("Hi, Yahboom") seems to make it stop, or maybe pressing R2. 
 - For more voice commands, see 14.1 in the documentation.
