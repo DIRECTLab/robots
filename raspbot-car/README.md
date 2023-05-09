@@ -1,7 +1,6 @@
 # Yahboom Raspbot Cars
 Inventory as of 12/14/22:
-- 1 is checked out to Ela
-- 4 more are available in the lab
+- 5 are available in the lab
 
 
 ## Capabilities
