@@ -1,6 +1,6 @@
 # Yahboom Rosmaster X3 Plus
 Inventory as of 5/15/23:
-- Rosmaster 1 servo 1 isn't working
+- Rosmaster 1 servo 1 isn't working. Based on my tests (plugging the other robot's servo into this one), this is a hardware issue on the servo. Everything else seems to work well.
 - Rasmaster 2 is in good condition.
 
 
