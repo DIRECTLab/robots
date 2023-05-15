@@ -1,7 +1,6 @@
 # Yahboom Rosmaster X3 Plus
-Inventory as of 12/14/22:
-- Rosmaster 1 seems to have a faulty SD card. Try flashing it?
-    - Also, servo 1 isn't working
+Inventory as of 5/15/23:
+- Rosmaster 1 servo 1 isn't working
 - Rasmaster 2 is in good condition.
 
 
