@@ -15,7 +15,6 @@ Inventory as of 5/15/23:
 
 
 ## How to Use
-
 Documentation and tutorials for this robot can be found [here](http://www.yahboom.net/study/ROSMASTER-X3-PLUS).
 
 To avoid accidental damage and avoid unnecessary power consumption, I recommend keeping the monitor unplugged when not in use.
@@ -23,7 +22,7 @@ To avoid accidental damage and avoid unnecessary power consumption, I recommend 
 ### Via `ssh`
 1. Turn the robot on and wait for it to beep.
     - The switch is on the robot's left side near the battery connection.
-1. Connect your computer to the robot's `yahboom` WiFi.
+1. Connect your computer to the robot's WiFi ( `yahboom` or `ROSMASTER`).
     - Security key is `12345678`.
 1. Run `ssh pi@yahboom` or a similar command.
     - Password is `yahboom`.
@@ -38,12 +37,24 @@ To avoid accidental damage and avoid unnecessary power consumption, I recommend 
     2. Turn the robot off.
 
 ### Via phone app
-
 There is a phone in the cupboard with the robots that has the app installed for controlling the robots. While using the app, beware that tilting the phone may cause the robot to move forward, backward or sideways.
 
 Instructions for connecting the phone can be found under section 3.1 in the documentation.
 
 ### Via remote control
+See section 3.3 in the documentation. Make sure the controller is turned on. 
 
-See section 3.3 in the documentation. Make sure the controller is turned on. Note that the beep that means the controller is ready does not stop. Feel free to fix the code for that! Saying the wakeup voice command ("Hi, Yahboom") seems to make it stop, or maybe pressing R2. 
-- For more voice commands, see 14.1 in the documentation.
+The phone only displays the manipulator camera view in this mode and has no other functionality.
+
+Note that the beep that means the controller is ready does not stop. Feel free to fix the code for that! Pressing R2 seems to make it stop. 
+
+### Voice commands
+The wakeup command is "Hi, Yahboom." For more info, see 14.1 in the documentation.
+
+
+## Troubleshooting
+
+### Python throws exception while logging / Other storage issues
+The remote control program creates large log files. They eat up space on the SD card, so they need to be deleted from time to time.
+1. `cd ~/.ros/log/`
+2. Delete the large directories that look like gibberish (large sequnces of hex numbers).
